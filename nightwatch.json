@@ -7,14 +7,12 @@
     "globals_path" : "",
   
     "selenium" : {
-      "start_process" : false,
-      "server_path" : "",
+      "start_process" : true,
+      "server_path" : "./bin/selenium-server-standalone-3.9.1.jar",
       "log_path" : "",
       "port" : 4444,
       "cli_args" : {
-        "webdriver.chrome.driver" : "",
-        "webdriver.gecko.driver" : "",
-        "webdriver.edge.driver" : ""
+        "webdriver.chrome.driver" : "./bin/chromedriver"
       }
     },
   
@@ -29,7 +27,7 @@
           "path" : ""
         },
         "desiredCapabilities": {
-          "browserName": "firefox",
+          "browserName": "chrome",
           "marionette": true
         }
       },

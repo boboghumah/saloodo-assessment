@@ -8,7 +8,8 @@
   },
   "author": "Bob Oghumah",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "nightwatch": "^0.9.21"
   }
 }
