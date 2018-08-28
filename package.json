@@ -1,0 +1,14 @@
+{
+  "name": "saloodo-assessment",
+  "version": "1.0.0",
+  "description": "Saloodo QA Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "./scripts/test.sh"
+  },
+  "author": "Bob Oghumah",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^0.9.21"
+  }
+}
